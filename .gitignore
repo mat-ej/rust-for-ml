@@ -1,0 +1,51 @@
+# Binaries and intermediate files
+/target/
+**/*.rs.bk
+
+# Cargo lock file (if you’re building a library)
+# Uncomment this if you don't want to commit Cargo.lock for libraries
+# Cargo.lock
+
+# Rust compilation artifacts
+*.rmeta
+*.rlib
+
+# Executables
+*.exe
+*.out
+*.dylib
+*.so
+
+# Build artifacts from rustc
+*.o
+*.d
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE and editor files
+/.idea/
+/.vscode/
+/*.iml
+/.DS_Store
+/.editorconfig
+
+# macOS files
+.DS_Store
+
+# Linux files
+*.swp
+*.swo
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# Rustfmt and Clippy
+rustfmt.toml
+clippy.toml
+
+*.html
+.history/*
+**/target/**
